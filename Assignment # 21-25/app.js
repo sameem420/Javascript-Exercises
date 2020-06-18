@@ -26,3 +26,15 @@
 
 
 // 5th Task
+// var myNationality = "Pakistani";
+// document.write("<h3>String : " + myNationality + "</h3><br>");
+// document.write("<h3>Character at Index 3 : " + myNationality.charAt(3) + "</h3><br>");
+
+
+// 1st Task
+// var firstName = prompt("What is your first name?");
+// var lastName = prompt("What is your last name?");
+
+// var fullName = firstName + " " + lastName;
+
+// alert("Welcome " + fullName);
