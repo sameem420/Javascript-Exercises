@@ -14,3 +14,7 @@
 
 
 // 3rd Task
+var myCountry = "Pakistan";
+document.write("<h3>String : " + myCountry + "</h3><br>");
+document.write("<h3>Index of 'n' : " + myCountry.indexOf('n') + "</h3><br>");
+
