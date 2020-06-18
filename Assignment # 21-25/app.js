@@ -47,6 +47,17 @@
 
 
 // 8th Task
-var message = "Ali and Sami are best friends. They play cricket and football together.";
-document.write("<h3>After Replcement : " + message.replace(/and/g, "&") + "</h3><br>");
+// var message = "Ali and Sami are best friends. They play cricket and football together.";
+// document.write("<h3>After Replcement : " + message.replace(/and/g, "&") + "</h3><br>");
 
+
+// 9th Task
+var num = "472";
+document.write("<h3>Value : " + num + "</h3><br>");
+document.write("<h3>Type : " + typeof(num) + "</h3><br>");
+num = Number(num);
+document.write("<h3>Value : " + num + "</h3><br>");
+document.write("<h3>Type : " + typeof(num) + "</h3><br>");
+
+
+// 10th Task
