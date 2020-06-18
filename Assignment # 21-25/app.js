@@ -32,9 +32,15 @@
 
 
 // 6th Task
-var firstName = prompt("What is your first name?");
-var lastName = prompt("What is your last name?");
+// var firstName = prompt("What is your first name?");
+// var lastName = prompt("What is your last name?");
 
-var fullName =  firstName.concat(" ", lastName);
+// var fullName =  firstName.concat(" ", lastName);
 
-alert("Welcome " + fullName);
+// alert("Welcome " + fullName);
+
+
+// 7th Task
+var city = "Hyderabad";
+document.write("<h3>City : " + city + "</h3><br>");
+document.write("<h3>After Replcement : " + city.replace("Hyder","Islam") + "</h3><br>");
