@@ -67,10 +67,14 @@
 
 
 // 11th Task
-var str = prompt("Enter something : ");
-document.write("<h3>User Input : " + str + "</h3><br>");
-document.write("<h3>Title Case : " + str[0].toUpperCase() + str.substring(1) + "</h3><br>");
+// var str = prompt("Enter something : ");
+// document.write("<h3>User Input : " + str + "</h3><br>");
+// document.write("<h3>Title Case : " + str[0].toUpperCase() + str.substring(1) + "</h3><br>");
 
 
 // 12th Task
 var num = 35.36 ;
+document.write("<h3>Number : " + num + "</h3><br>");
+num = num.toString();
+document.write("<h3>Result : " + num.replace('.',"") + "</h3><br>");
+
