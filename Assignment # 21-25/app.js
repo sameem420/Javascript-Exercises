@@ -41,6 +41,12 @@
 
 
 // 7th Task
-var city = "Hyderabad";
-document.write("<h3>City : " + city + "</h3><br>");
-document.write("<h3>After Replcement : " + city.replace("Hyder","Islam") + "</h3><br>");
+// var city = "Hyderabad";
+// document.write("<h3>City : " + city + "</h3><br>");
+// document.write("<h3>After Replcement : " + city.replace("Hyder","Islam") + "</h3><br>");
+
+
+// 8th Task
+var message = "Ali and Sami are best friends. They play cricket and football together.";
+document.write("<h3>After Replcement : " + message.replace(/and/g, "&") + "</h3><br>");
+
