@@ -52,12 +52,18 @@
 
 
 // 9th Task
-var num = "472";
-document.write("<h3>Value : " + num + "</h3><br>");
-document.write("<h3>Type : " + typeof(num) + "</h3><br>");
-num = Number(num);
-document.write("<h3>Value : " + num + "</h3><br>");
-document.write("<h3>Type : " + typeof(num) + "</h3><br>");
+// var num = "472";
+// document.write("<h3>Value : " + num + "</h3><br>");
+// document.write("<h3>Type : " + typeof(num) + "</h3><br>");
+// num = Number(num);
+// document.write("<h3>Value : " + num + "</h3><br>");
+// document.write("<h3>Type : " + typeof(num) + "</h3><br>");
 
 
 // 10th Task
+var str = prompt("Enter something : ");
+document.write("<h3>User Input : " + str + "</h3><br>");
+document.write("<h3>Upper Case : " + str.toUpperCase() + "</h3><br>");
+
+
+// 11th Task
