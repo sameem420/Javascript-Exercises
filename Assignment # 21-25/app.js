@@ -80,3 +80,35 @@
 
 
 // 13th Task
+// var userName=prompt("Enter your Username : ");
+// var message;
+// var split=[];
+// var arr=[];
+// for(var i = 0;i < userName.length; i++)
+// {
+//     split[i]=userName.split("&nbsp;");
+//     arr[i]=userName.charCodeAt(i);
+//     if(arr[i]!=33 || arr[i]!=44 || arr[i]!=46 || arr[i]!=64)
+//     {
+//             message="Username is correct!";
+//     }
+//     while(arr[i]==33 || arr[i]==44 || arr[i]==46 || arr[i]==64)
+//     {
+//         alert("please enter a valid userName");                                                                                                                   
+//         userName=prompt("Enter your Input: ");
+//         for(var i=0;i<userName.length;i++)
+//         {
+//             split[i]=userName.split("&nbsp;");
+//             arr[i]=userName.charCodeAt(i);
+//             if(arr[i]!=33 || arr[i]!=44 || arr[i]!=46 || arr[i]!=64)
+//             {
+//                 break;
+//             }
+//         }
+//     }
+// }
+// alert(message);
+
+
+// 14th Task
+
