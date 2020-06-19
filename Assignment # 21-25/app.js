@@ -111,4 +111,14 @@
 
 
 // 14th Task
-
+var dishes = ["cake", "apple pie", "cookie", "chips", "patties"]; 
+var searchDish = prompt("Welcome to ABC Bakery, what do you want to order sir/mam? ");
+var found = dishes.includes(searchDish);
+if(found)
+{
+    document.write(searchDish + " is available at index " + dishes.indexOf(searchDish) + " in our bakery");
+}
+else
+{
+    document.write("We are sorry. " + searchDish + " is not available in our bakery");
+}
