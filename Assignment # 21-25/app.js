@@ -73,8 +73,10 @@
 
 
 // 12th Task
-var num = 35.36 ;
-document.write("<h3>Number : " + num + "</h3><br>");
-num = num.toString();
-document.write("<h3>Result : " + num.replace('.',"") + "</h3><br>");
+// var num = 35.36 ;
+// document.write("<h3>Number : " + num + "</h3><br>");
+// num = num.toString();
+// document.write("<h3>Result : " + num.replace('.',"") + "</h3><br>");
 
+
+// 13th Task
