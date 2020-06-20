@@ -29,6 +29,12 @@
 
 
 // 3rd Task
-var number = prompt("Enter a Number (positive or negative) : ");
+// var number = prompt("Enter a Number (positive or negative) : ");
 
-document.write("The absolute value of : " + Math.abs(number) + "<br>");
+// document.write("The absolute value of : " + Math.abs(number) + "<br>");
+
+
+// 4th Task
+document.write("random dice value : " + Math.floor(Math.random() * 11) + "<br>");
+
+document.write("random dice value : " + Math.floor(Math.random() * 11) + "<br>");
