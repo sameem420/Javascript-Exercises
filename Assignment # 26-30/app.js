@@ -35,6 +35,20 @@
 
 
 // 4th Task
-document.write("random dice value : " + Math.floor(Math.random() * 11) + "<br>");
+// document.write("random dice value : " + Math.floor(Math.random() * 11) + "<br>");
 
-document.write("random dice value : " + Math.floor(Math.random() * 11) + "<br>");
+// document.write("random dice value : " + Math.floor(Math.random() * 11) + "<br>");
+
+
+// 5th Task
+var coin = Math.floor(Math.random() * 2) + 1;
+if(coin == 2)
+{
+    document.write(coin + "<br>");
+    document.write("random coin value : Heads" + "<br>");
+}
+else if(coin == 1)
+{
+    document.write(coin + "<br>");
+    document.write("random coin value : Tails" + "<br>");
+}
