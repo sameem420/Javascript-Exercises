@@ -1,2 +1,2 @@
 # Javascript-Exercises
-repository contain the solutions of the exercises done in JavaScript while learning
+Repository contain the solutions of the JavaScript exercises which I did while learning and practicing.
