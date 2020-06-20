@@ -41,14 +41,21 @@
 
 
 // 5th Task
-var coin = Math.floor(Math.random() * 2) + 1;
-if(coin == 2)
-{
-    document.write(coin + "<br>");
-    document.write("random coin value : Heads" + "<br>");
-}
-else if(coin == 1)
-{
-    document.write(coin + "<br>");
-    document.write("random coin value : Tails" + "<br>");
-}
+// var coin = Math.floor(Math.random() * 2) + 1;
+// if(coin == 2)
+// {
+//     document.write(coin + "<br>");
+//     document.write("random coin value : Heads" + "<br>");
+// }
+// else if(coin == 1)
+// {
+//     document.write(coin + "<br>");
+//     document.write("random coin value : Tails" + "<br>");
+// }
+
+
+// 6th Task
+// document.write("random number between 1 and 100 is : " + Math.floor(Math.random() * 101) + "<br>");
+
+
+// 7th Task
