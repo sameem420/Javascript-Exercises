@@ -59,3 +59,11 @@
 
 
 // 7th Task
+// var weight = prompt("Enter your weight in kilograms : ");
+// weight = weight.split("kgs" || "kilograms");
+// weight = parseInt(weight);
+// document.write("The weight of user is : " + weight + " kilograms <br>");
+
+
+// 8th Task
+// document.write("random number between 1 and 100 is : " + Math.floor(Math.random() * 101) + "<br>");
