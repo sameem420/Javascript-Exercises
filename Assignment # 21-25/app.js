@@ -154,4 +154,9 @@
 
 
 // 17th Task
-var userInput = prompt("Please enter something : ");
+// var userInput = prompt("Please enter something : ");
+// document.write("User Input : " + userInput + "<br>");
+// document.write("Last character of input : " + userInput.charAt(userInput.length-1));
+
+
+// 18th Task
