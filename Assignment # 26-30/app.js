@@ -66,4 +66,12 @@
 
 
 // 8th Task
-// document.write("random number between 1 and 100 is : " + Math.floor(Math.random() * 101) + "<br>");
+var secretNumber = Math.floor(Math.random() * 11) + 1;
+var userChoice = prompt("Enter a number between 1 and 10 : ");
+if(parseInt(userChoice) == parseInt(secretNumber))
+{
+    alert("Congrats! You guessed it right.");
+}
+else{
+    alert("Sorry! Try again.");
+}
