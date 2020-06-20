@@ -125,3 +125,19 @@
 
 
 // 15th Task
+var password = prompt("Please enter your password : ");
+if (isNaN(parseInt(password[0])))
+{
+    if (password.length < 6) {
+        alert("Your password must be at least 6 characters"); 
+    }
+    if (password.search(/[a-z]/i) < 0) {
+        alert("Your password must contain at least one letter.");
+    }
+    if (password.search(/[0-9]/) < 0) {
+        alert("Your password must contain at least one digit."); 
+    }
+}
+else  {
+    alert("Password cannot begin with a number."); 
+}
